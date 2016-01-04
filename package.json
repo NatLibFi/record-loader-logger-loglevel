@@ -1,0 +1,60 @@
+{
+    "name": "record-loader-logger-loglevel",
+    "description": "Loglevel logger implementation for recordLoader",
+    "author": {
+	"name": "The National Library of Finland"
+    },
+    "keywords": [
+	"interface",
+	"prototype",
+	"record",
+	"store",
+	"datastore",
+	"recordstore",
+	"db",
+	"database",
+	"store",
+	"load",
+	"import",
+	"export",
+	"save",
+	"filter",
+	"preprocess",
+	"match",
+	"merge",
+	"process",
+	"find",
+	"query",
+	"tuple",
+	"create",
+	"update",
+	"delete",
+	"log"
+    ],
+    "homepage": "https://github.com/NatLibFi/record-loader-logger-loglevel",
+    "bugs": {
+	"url": "https://github.com/NatLibFi/record-loader-logger-loglevel/issues"
+    },
+    "repository": {
+	"type": "git",
+	"url": "git@github.com:NatLibFi/record-loader-logger-loglevel.git"
+    },
+    "license": " AGPL-3.0",
+    "version": "0.0.1",
+    "dependencies": {
+	"loglevel": "^1.4.0",
+	"loglevel-std-streams": "https://github.com/NatLibFi/loglevel-std-streams",
+	"loglevel-message-prefix": "https://github.com/NatLibFi/loglevel-message-prefix",
+	"es6-polyfills": "https://github.com/NatLibFi/es6-polyfills"
+    },
+    "devDependencies": {
+	"chai": "^3.2.0",
+	"grunt": "^0.4.5",
+	"jshint": "^2.8.0",
+	"mocha": "^2.3.2",
+	"istanbul": "^0.3.20",
+	"grunt-contrib-jshint": "^0.11.3",
+	"grunt-mocha-test": "^0.12.7",
+	"grunt-mocha-istanbul": ">=3.0.1 <3.2"
+    }
+}
