@@ -44,7 +44,7 @@
     "dependencies": {
 	"loglevel": "^1.4.0",
 	"loglevel-std-streams": "https://github.com/NatLibFi/loglevel-std-streams",
-	"loglevel-message-prefix": "https://github.com/NatLibFi/loglevel-message-prefix",
+	"loglevel-message-prefix": "https://github.com/NatLibFi/loglevel-message-prefix#936b2cd2f7584b89ec50cfa8136521915d7d07d8",
 	"es6-polyfills": "https://github.com/NatLibFi/es6-polyfills"
     },
     "devDependencies": {
