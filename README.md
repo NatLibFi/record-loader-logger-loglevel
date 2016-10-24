@@ -1,6 +1,6 @@
 # recordLoader Loglevel logger [![NPM Version](https://img.shields.io/npm/v/record-loader-logger-loglevel.svg)](https://npmjs.org/package/record-loader-logger-loglevel) [![Build Status](https://travis-ci.org/NatLibFi/record-loader-logger-loglevel.svg)](https://travis-ci.org/NatLibFi/record-loader-logger-loglevel) [![Test Coverage](https://codeclimate.com/github/NatLibFi/record-loader-logger-loglevel/badges/coverage.svg)](https://codeclimate.com/github/NatLibFi/record-loader-logger-loglevel/coverage)
 
-[Loglevel](https://github.com/pimterry/loglevel) logger implementation for [recordLoader](https://github.com/natlibfi/record-loader].
+[Loglevel](https://github.com/pimterry/loglevel) logger implementation for [recordLoader](https://github.com/natlibfi/record-loader).
 
 ## Development 
 
