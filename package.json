@@ -39,7 +39,7 @@
     "type": "git",
     "url": "git@github.com:NatLibFi/record-loader-logger-loglevel.git"
   },
-  "license": " AGPL-3.0+",
+  "license": "AGPL-3.0+",
   "version": "1.0.0",
   "scripts": {
     "lint": "jshint .",
@@ -50,15 +50,15 @@
     "check": "npm run lint && npm run cover",
     "travisci": "npm run check",
     "publish-to-npm": "npm install && npm run check && npm publish",
-    "generate-requirejs-config": "requirejs-configurator --npm -P -D > test/browser-main.js"
+    "generate-requirejs-config": "requirejs-configurator --npm --include-dev-dependencies --exclude-peer-dependencies > test/browser-main.js"
   },
   "dependencies": {
     "record-loader-prototypes": "^1.0.0",
     "loglevel": "^1.4.1",
     "loglevel-std-streams": "^2.0.1",
-    "loglevel-message-prefix": "https://github.com/natlibfi/loglevel-message-prefix#simplify",
+    "loglevel-message-prefix": "^3.0.0",
     "loglevel-message-buffer": "^1.0.2",
-    "es6-polyfills": "^1.1.0"
+    "es6-polyfills": "^2.0.0"
   },
   "peerDependencies": {
     "record-loader": "^1.0.0"
