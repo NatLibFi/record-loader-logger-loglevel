@@ -40,7 +40,7 @@
     "url": "git@github.com:NatLibFi/record-loader-logger-loglevel.git"
   },
   "license": "AGPL-3.0+",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "scripts": {
     "lint": "jshint .",
     "test-nodejs": "istanbul cover _mocha -- test/*.spec.js",
